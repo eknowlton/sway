@@ -40,7 +40,7 @@ default_border none
 default_floating_border none
 titlebar_padding 1
 titlebar_border_thickness 0
-gaps inner 5
+gaps inner 10
 
 # startup
 
@@ -81,6 +81,8 @@ exec flameshot
 #
 # Basics:
 #
+    bindsym $mod+Shift+n exec swaync-client -t -sw
+
     bindsym $mod+grave workspace back_and_forth
 
     # Start a terminal
